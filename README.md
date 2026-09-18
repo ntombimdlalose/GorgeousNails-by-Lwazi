@@ -70,5 +70,5 @@ Home
 
 Gorgeous Nails by Lwazi. (2026). Business logo and nail photographs provided by the client for use in the website project.
 
-Course learning material and the WEDE5020W project assessment instructions were used for the planning and development of the website.
+
 - 
