@@ -70,7 +70,7 @@ Home
 
 Gorgeous Nails by Lwazi. (2026). Business logo and nail photographs provided by the client for use in the website project.
 
-## Version 2.0
+## Version 2.0-Part 2 Update
 
 - Developed the website pages using HTML.
 - Updated the website content based on the Part 1 planning.
