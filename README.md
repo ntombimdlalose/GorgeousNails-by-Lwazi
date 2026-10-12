@@ -78,7 +78,7 @@ Gorgeous Nails by Lwazi. (2026). Business logo and nail photographs provided by 
 - Added images and website content relevant to GorgeousNails by Lwazi.
 - Added the enquiry form for customers.
 - Added contact information for the salon.
-- Updated the website colours and styling using CSS, including the pink colour theme.
+- Updated the website colours and styling using css, including the pink colour theme.
 - Checked the website layout on desktop and mobile screen sizes.
 - Updated the website files and pushed the latest version to GitHub.
  
