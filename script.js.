@@ -1,0 +1,50 @@
+// GorgeousNails by Lwazi - JavaScript functionality
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    // 1. Display a welcome message
+    console.log("Welcome to GorgeousNails by Lwazi!");
+
+    // 2. Handle the enquiry form
+    const enquiryForm = document.getElementById("enquiryForm");
+
+    if (enquiryForm) {
+        enquiryForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            if (name === "" || email === "" || message === "") {
+                alert("Please complete all fields before submitting.");
+                return;
+            }
+
+            alert("Thank you, " + name +
+                "! Your enquiry has been received.");
+
+            enquiryForm.reset();
+        });
+    }
+
+    // 3. Add a search feature for the services page
+    const searchInput = document.getElementById("serviceSearch");
+    const serviceItems = document.querySelectorAll("#serviceList li");
+
+    if (searchInput && serviceItems.length > 0) {
+        searchInput.addEventListener("input", function () {
+            const searchText = searchInput.value.toLowerCase();
+
+            serviceItems.forEach(function (item) {
+                const serviceName = item.textContent.toLowerCase();
+
+                if (serviceName.includes(searchText)) {
+                    item.style.display = "";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        });
+    }
+});
