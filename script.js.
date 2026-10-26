@@ -25,18 +25,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 );
 
-                if (!response.ok) {
-                    throw new Error("Submission failed");
-                }
+                const result = await response.json();
 
-                formMessage.textContent = "Thank you! Your enquiry has been sent successfully.";
-                formMessage.style.color = "green";
-                enquiryForm.reset();
+if (!response.ok || !(result.success === "true" || result.success === true)) {
+    throw new Error("Submission failed");
+}
 
-            } catch (error) {
-                formMessage.textContent = "Sorry, your enquiry could not be sent. Please try again.";
-                formMessage.style.color = "red";
-            }
+formMessage.textContent = "Thank you! Your enquiry has been submitted.";
+formMessage.style.color = "green";
+enquiryForm.reset();
+
+} catch (error) {
+    formMessage.textContent = "Sorry, we could not submit your enquiry. Please try again.";
+    formMessage.style.color = "red";
+}
         });
     }
   
