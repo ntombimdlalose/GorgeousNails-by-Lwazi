@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ntombimdlalose.github.io/GorgeousNails-by-Lwazi/sitemap.xml
