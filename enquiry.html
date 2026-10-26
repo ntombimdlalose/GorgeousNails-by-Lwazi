@@ -50,19 +50,7 @@
         <p id="formMessage"></p>
     </form>
 </main
-    ><script>
-document.getElementById("enquiryForm").addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    const name = document.getElementById("name").value.trim();
-    const message = document.getElementById("formMessage");
-
-    message.textContent = "Thank you, " + name + "! Your enquiry has been received.";
-    message.style.color = "green";
-
-    this.reset();
-});
-</script>
+   
     
 
 <footer>
