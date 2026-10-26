@@ -31,7 +31,44 @@
 
     <p><strong>Phone:</strong> 0620123138</p>
     <p><strong>Email:</strong> msominolwazi86@gmail.com</p>
-    <p><strong>Location:</strong> 265 General Beyers Street Pretoria,Gauteng 0182 South Africa</p>
+    <p><strong>Location:</strong> 265 General Beyers Street Pretoria,Gauteng 0182 South Africa</p><h2>Send Us a Message</h2>
+
+<form action="mailto:msominolwazi86@gmail.com"
+      method="post"
+      enctype="text/plain">
+
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="Name"
+           required minlength="2">
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="Email"
+           required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="Phone"
+           pattern="[0-9 +()-]{10,15}"
+           title="Enter a valid phone number"
+           required>
+
+    <label for="messageType">Type of Message:</label>
+    <select id="messageType" name="Message Type" required>
+        <option value="">Choose a message type</option>
+        <option value="General Enquiry">General Enquiry</option>
+        <option value="Appointment">Appointment</option>
+        <option value="Compliment">Compliment</option>
+        <option value="Complaint">Complaint</option>
+    </select>
+
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="Message"
+              rows="5" required minlength="10"></textarea>
+
+    <button type="submit">Send Message</button>
+    <button type="reset">Clear Form</button>
+
+</form>
+    
 </main>
 
 <footer>
