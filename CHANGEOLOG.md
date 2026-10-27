@@ -25,6 +25,23 @@ This file records the changes made to the Gorgeous Nails by Lwazi website during
 - Improved the layout for desktop and mobile screen sizes.
 - Updated the project files and saved the latest changes.
 
-## Version 3.0 -Part 3
+## Version 3.0 – Part 3
 
-Part 3 updates will be documented here after the new functionality, improvements and testing have been completed.
+### Improvements Based on Lecturer Feedback
+- Reviewed previously identified website issues.
+- Reviewed CSS file paths to improve consistent styling across pages.
+- Reviewed image display and updated the website where necessary.
+- Reviewed navigation links between website pages.
+- Reviewed website functionality and identified areas requiring further improvement.
+
+### SEO Improvements
+- Added unique page titles and meta descriptions.
+- Added robots.txt to provide instructions for search engine crawlers.
+- Added sitemap.xml to list website pages for search engine discovery.
+
+### Documentation and Testing
+- Updated README.md with Part 3 information.
+- Reviewed the website layout on desktop and mobile screen sizes.
+- Reviewed enquiry form validation and submission behavior.
+- Prepared the website for deployment on Netlify.
+
