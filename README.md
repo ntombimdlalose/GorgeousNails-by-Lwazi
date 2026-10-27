@@ -95,4 +95,13 @@ Gorgeous Nails by Lwazi. (2026). Business logo and nail photographs provided by 
 - Added form validation to the enquiry and contact forms.
 - Checked the website layout on desktop and mobile screen sizes.
 - Updated the README file to document the latest website changes.
-- Uploaded the updated website files to GitHub.
+- Uploaded the updated website files to GitHub.## Live Website and Repository
+
+## Live and Respiratory
+- Live Website: https://ntombimdlalose.github.io/GorgeousNails-by-Lwazi/
+ 
+- GitHub Repository: https://github.com/ntombimdlalose/GorgeousNails-by-Lwazi
+
+
+
+
