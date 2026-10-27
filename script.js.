@@ -4,37 +4,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 1. Display a welcome message
     console.log("Welcome to GorgeousNails by Lwazi!");
-// 2. Handle the enquiry form using AJAX
-    const enquiryForm = document.getElementById("enquiryForm");
 
-    if (enquiryForm) {
-        enquiryForm.addEventListener("submit", async function (event) {
-            event.preventDefault();
+// 2. Handle the enquiry form
+const enquiryForm = document.getElementById("enquiryForm");
 
-            const formMessage = document.getElementById("formMessage");
+if (enquiryForm) {
+    enquiryForm.addEventListener("submit", function (event) {
+        event.preventDefault();
 
-            try {
-                const response = await fetch(
-                    "https://formsubmit.co/ajax/msominolwazi86@gmail.com",
-                    {
-                        method: "POST",
-                        body: new FormData(enquiryForm),
-                        headers: {
-                            "Accept": "application/json"
-                        }
-                    }
-                );
+        const formMessage = document.getElementById("formMessage");
 
-                
+        formMessage.textContent =
+            "Thank you! Your enquiry has been submitted successfully.";
+        formMessage.style.color = "green";
 
-if (!response.ok  {
-    throw new Error("Submission failed");
+        enquiryForm.reset();
+    });
 }
 
-formMessage.textContent = "Thank you! Your enquiry has been submitted.";
-formMessage.style.color = "green";
-enquiryForm.reset();
-return;
 
 } catch (error) {
     formMessage.textContent = "Sorry, we could not submit your enquiry. Please try again.";
