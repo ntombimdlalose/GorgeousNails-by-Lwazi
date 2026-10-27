@@ -100,9 +100,10 @@ GorgeousNails by Lwazi.2026. Business information and services [Personal collect
 - Checked the website layout on desktop and mobile screen sizes.
 - Updated the README file to document the latest website changes.
 - Reference updated for Part 1-3.
-- Uploaded the updated website files to GitHub.## Live Website and Repository
+- Uploaded the updated website files to GitHub.
+- Added nail image gallery to display nail designs on the homepage.
 
-## Live and Respiratory
+## Live and Repository
 - Live Website: https://ntombimdlalose.github.io/GorgeousNails-by-Lwazi/
  
 - GitHub Repository: https://github.com/ntombimdlalose/GorgeousNails-by-Lwazi
