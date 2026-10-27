@@ -77,12 +77,23 @@ if (searchInput) {
         }
     });
 }
-
 function openLightbox(imageSrc) {
-    document.getElementById("lightboxImage").src = imageSrc;
-    document.getElementById("lightbox").style.display = "flex";
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+
+    if (lightbox && lightboxImage) {
+        lightboxImage.src = imageSrc;
+        lightbox.style.display = "flex";
+    }
 }
 
 function closeLightbox() {
+    const lightbox = document.getElementById("lightbox");
+
+    if (lightbox) {
+        lightbox.style.display = "none";
+    }
+}
+
     document.getElementById("lightbox").style.display = "none";
 }
