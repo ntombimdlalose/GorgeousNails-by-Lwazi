@@ -81,4 +81,18 @@ Gorgeous Nails by Lwazi. (2026). Business logo and nail photographs provided by 
 - Updated the website colours and styling using css, including the pink colour theme.
 - Checked the website layout on desktop and mobile screen sizes.
 - Updated the website files and pushed the latest version to GitHub.
- 
+
+- 
+  
+## Version 3.0 – Part 3 Update
+
+- Updated SEO titles and meta descriptions for the website pages.
+- Added heading structure to improve website content organization.
+- Added alternative text to the salon logo image.
+- Added robots.txt and sitemap.xml files to support search engine indexing.
+- Reviewed navigation links between the website pages.
+- Added JavaScript functionality to the website.
+- Added form validation to the enquiry and contact forms.
+- Checked the website layout on desktop and mobile screen sizes.
+- Updated the README file to document the latest website changes.
+- Uploaded the updated website files to GitHub.
