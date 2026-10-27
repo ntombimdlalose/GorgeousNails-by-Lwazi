@@ -25,15 +25,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 );
 
-                const result = await response.json();
+                
 
-if (!response.ok || !(result.success === "true" || result.success === true)) {
+if (!response.ok  {
     throw new Error("Submission failed");
 }
 
 formMessage.textContent = "Thank you! Your enquiry has been submitted.";
 formMessage.style.color = "green";
 enquiryForm.reset();
+return;
 
 } catch (error) {
     formMessage.textContent = "Sorry, we could not submit your enquiry. Please try again.";
