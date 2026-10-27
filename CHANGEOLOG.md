@@ -42,6 +42,12 @@ This file records the changes made to the Gorgeous Nails by Lwazi website during
 ### Documentation and Testing
 - Updated README.md with Part 3 information.
 - Reviewed the website layout on desktop and mobile screen sizes.
-- Reviewed enquiry form validation and submission behavior.
-- Prepared the website for deployment on Netlify.
+- Tested the enquiry and contact forms.
+- Updated the website files on GitHub
+- Prepared the website for deployment on GitPage.
+
+### Deployment
+- Deployed the website using GitHub Pages.
+- Published the website online and tested the live link.
+- Uploaded and maintained the website source files in the GitHub repository.
 
