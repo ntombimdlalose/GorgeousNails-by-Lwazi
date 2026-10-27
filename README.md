@@ -66,9 +66,13 @@ Home
 - Added the business contact information.
 - Added the services offered by the salon.
 - Uploaded the website files to GitHub.
-## References
 
-Gorgeous Nails by Lwazi. (2026). Business logo and nail photographs provided by the client for use in the website project.
+- 
+## References (Parts 1-3)
+GorgeousNails by Lwazi. 2026. Business logo and nail photographs provided by the client for the website project[Personal Collection]. Unpublished
+
+GorgeousNails by Lwazi.2026. Business information and services [Personal collection].Unpublished
+
 
 ## Version 2.0-Part 2 Update
 
@@ -95,6 +99,7 @@ Gorgeous Nails by Lwazi. (2026). Business logo and nail photographs provided by 
 - Added form validation to the enquiry and contact forms.
 - Checked the website layout on desktop and mobile screen sizes.
 - Updated the README file to document the latest website changes.
+- Reference updated for Part 1-3.
 - Uploaded the updated website files to GitHub.## Live Website and Repository
 
 ## Live and Respiratory
