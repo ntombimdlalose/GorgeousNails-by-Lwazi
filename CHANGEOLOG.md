@@ -46,6 +46,10 @@ This file records the changes made to the Gorgeous Nails by Lwazi website during
 - Updated the website files on GitHub
 - Prepared the website for deployment on GitPage.
 
+- ### Nail Gallery
+- Added a nail image gallery to the homepage to display nail designs.
+- Updated the website documentation to include the new gallery.
+
 ### Deployment
 - Deployed the website using GitHub Pages.
 - Published the website online and tested the live link.
