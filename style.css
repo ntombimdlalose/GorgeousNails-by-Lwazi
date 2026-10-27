@@ -102,3 +102,56 @@ main a {
     display: inline-block;
     margin-bottom: 5px;
 }
+
+
+/* Improve contact form layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+form input,
+form select,
+form textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+form button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    form input,
+    form select,
+    form textarea {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
+}
