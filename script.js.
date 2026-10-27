@@ -43,31 +43,39 @@ if (enquiryForm) {
     });
 }
 
+// 3. Search services
+const searchInput = document.getElementById("serviceSearch");
+const serviceItems = document.querySelectorAll("#serviceList li");
 
-} catch (error) {
-    formMessage.textContent = "Sorry, we could not submit your enquiry. Please try again.";
-    formMessage.style.color = "red";
+if (searchInput) {
+    searchInput.addEventListener("input", function () {
+        const searchText = searchInput.value.trim().toLowerCase();
+        let matches = 0;
+
+        serviceItems.forEach(function (item) {
+            const serviceName = item.textContent.toLowerCase();
+            const isMatch = serviceName.includes(searchText);
+
+            item.style.display = isMatch ? "" : "none";
+
+            if (isMatch) {
+                matches++;
+            }
+        });
+
+        const resultMessage = document.getElementById("searchMessage");
+
+        if (resultMessage) {
+            if (searchText === "") {
+                resultMessage.textContent = "";
+            } else if (matches === 0) {
+                resultMessage.textContent = "No services found. Please try another search.";
+            } else {
+                resultMessage.textContent = matches +
+                    (matches === 1 ? " service found." : " services found.");
+            }
+        }
+    });
 }
-        });
-    }
-  
-    // 3. Add a search feature for the services page
-    const searchInput = document.getElementById("serviceSearch");
-    const serviceItems = document.querySelectorAll("#serviceList li");
 
-    if (searchInput && serviceItems.length > 0) {
-        searchInput.addEventListener("input", function () {
-            const searchText = searchInput.value.toLowerCase();
 
-            serviceItems.forEach(function (item) {
-                const serviceName = item.textContent.toLowerCase();
-
-                if (serviceName.includes(searchText)) {
-                    item.style.display = "";
-                } else {
-                    item.style.display = "none";
-                }
-            });
-        });
-    }
-});
